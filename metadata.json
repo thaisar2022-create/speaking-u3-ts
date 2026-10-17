@@ -1,0 +1,6 @@
+{
+  "name": "ThaiSar · အခန်း (၃) & Personal Dashboard",
+  "description": "Thai listening and speaking for Myanmar learners (Unit 3) with personal dashboard for secure document upload and management.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

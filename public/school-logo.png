@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#49105f" />
+      <stop offset="100%" stop-color="#721b8b" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff566" />
+      <stop offset="100%" stop-color="#ffb800" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Outer Circular Shield -->
+  <circle cx="100" cy="100" r="96" fill="url(#bgGrad)" stroke="#ffef00" stroke-width="4" />
+  <circle cx="100" cy="100" r="88" fill="none" stroke="#ffffff" stroke-width="1.5" stroke-dasharray="4 2" opacity="0.6" />
+  
+  <!-- Central Emblem: Open Book & Graduation / Flame Motif -->
+  <!-- Open Book Base -->
+  <path d="M48 132 C 72 120, 92 125, 100 138 C 108 125, 128 120, 152 132 L 152 88 C 128 78, 108 83, 100 96 C 92 83, 72 78, 48 88 Z" 
+        fill="#ffffff" opacity="0.95" />
+  <path d="M100 96 L 100 138" stroke="#4d1060" stroke-width="2.5" stroke-linecap="round" />
+  
+  <!-- Golden Crown / Star / Wisdom Emblem above book -->
+  <polygon points="100,44 105,58 119,59 108,68 112,82 100,74 88,82 92,68 81,59 95,58" fill="url(#goldGrad)" />
+  <circle cx="100" cy="40" r="3" fill="#ffffff" />
+
+  <!-- Thai / Myanmar flags tiny circles or banner dots -->
+  <circle cx="68" cy="154" r="5" fill="#2451b2" stroke="#ffffff" stroke-width="1.5" />
+  <circle cx="132" cy="154" r="5" fill="#e62020" stroke="#ffffff" stroke-width="1.5" />
+  
+  <!-- Text curved or centered -->
+  <text x="100" y="172" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="900" font-size="16" fill="#fff566" letter-spacing="2">THAISAR</text>
+</svg>
